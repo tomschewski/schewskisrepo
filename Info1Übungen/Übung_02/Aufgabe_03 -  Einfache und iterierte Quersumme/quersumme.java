@@ -26,7 +26,7 @@ public class quersumme {
     return n;
     }
     int temp = quersumme(n/10);
-    System.out.println("Temporäre Zwischenszmme : " + temp);
+    System.out.println("Temporäre Zwischensumme : " + temp);
     return n%10 + temp;
   }
 }
