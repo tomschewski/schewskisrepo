@@ -17,26 +17,26 @@ while i != k do:
 
 -- Zweiter Schleifen durchlauf
 while i != k do:
-  ergebnis = 10 * (10-7+3) = 70
-  ergebnis = 70 / 3 = 23.333
+  ergebnis = 10 * (10-7+3) = 60
+  ergebnis = 60 / 3 = 20
   i = 3 + 1 = 4
 
 -- Dritter Schleifen durchlauf
 while i != k do:
-  ergebnis = 23.333 * (10-7+4) = 163.333
-  ergebnis = 163.333 / 4 = 40.833
+  ergebnis = 20 * (10-7+4) = 140
+  ergebnis = 140 / 4 = 35
   i = 4 + 1 = 5
 
 -- Vierter Schleifen durchlauf
 while i != k do:
-  ergebnis = 40.833 * (10-7+5) = 326.666
-  ergebnis = 326.666 / 5 = 65.333
+  ergebnis = 35 * (10-7+5) = 280
+  ergebnis = 280 / 5 = 56
   i = 5 + 1 = 6
 
 -- Fünfter Schleifen durchlauf
 while i != k do:
-  ergebnis = 65.333 * (10-7+6) = 588
-  ergebnis = 588 / 6 = 98 
+  ergebnis = 56 * (10-7+6) = 504
+  ergebnis = 588 / 6 = 84 
   i = 6 + 1 =  7
 
-i  == 7, somit returnt das Programm das Ergebnis : 98
+i  == 7, somit returnt das Programm das Ergebnis : 84
