@@ -24,16 +24,10 @@ class middlesquaremethod {
         StdOut.println(n);
       }
       
-      else if (n > 100 && n < 1000) {
+      else if (n < 1000) {
         n = n / 10;
         StdOut.println(n);
       }
-
-      else if (n < 100) {
-        n = n / 10;
-        StdOut.println(n);
-      }
-
     }
   }
 }
