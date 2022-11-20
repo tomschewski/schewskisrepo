@@ -3,8 +3,8 @@ class isbn10 {
     
     int n = Integer.parseInt(args[0]);
     int nquer = wikiquersumme(n);
-    int nervquer = nervigealternative(n);
-    System.out.println("Itquersumme von : " + n + " = " + nquer + " Nervige Quersumme : " + nervquer);
+    int nervquer = nervigealternative(wikiquersumme(n));
+    System.out.println("Itquersumme von : " + n + " = " + nquer % 11 + " Nervige Quersumme : " + nervquer);
 
   }
 
@@ -14,10 +14,10 @@ class isbn10 {
     for (int i = 9; i != 0; i--) {
       sum += n % 10 * i;
       n = n/10;
-      System.out.println("Sum : " + sum + " n % 10 " + n%10);
+      //System.out.println("Sum : " + sum + " n % 10 " + n%10);
     }  
 
-    return sum % 11;
+    return sum;
   }
 
   public static int nervigealternative(int n) {
@@ -42,6 +42,6 @@ class isbn10 {
 
     while(sum<0)
       sum += 11;
-    return sum % 11;
+    return sum;
   }
 }
