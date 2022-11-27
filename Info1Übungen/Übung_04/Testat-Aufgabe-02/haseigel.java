@@ -23,9 +23,9 @@ public class haseigel {
       System.out.println(n + "   This is n squared");
       n = (n % 0x1000000L) / 0x100;
 
-      if (update){
-        hase = n;
-        igel = ((igel * igel) % 0x1000000L) / 0x100;
+      if (update){   //update ist true in jeder 2 iteration
+        hase = n; //hase nimmt somit jede 2 iteration einen neuen wert an. bzw hase überspringt einen wert pro Änderung
+        igel = ((igel * igel) % 0x1000000L) / 0x100; //Igel hingegen bildet mit sich selber die nächste iteration und überspringt somit nichts
       }
       update = !update;
       System.out.println(count + "\t" + n);
