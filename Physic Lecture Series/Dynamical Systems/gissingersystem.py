@@ -4,7 +4,7 @@ from scipy.integrate import odeint
 
 def odes(x, t):
     # constants
-    u = 0.119
+    u = 0.119 # change this variable for different plots as requested by the task description
     v = 0.1
     g = 0.9
     
